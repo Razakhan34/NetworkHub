@@ -1,6 +1,6 @@
 const app = require("./app");
-const { server } = require("../utility/socket");
-const connectDB = require("../config/database");
+const { server } = require("./utility/socket");
+const connectDB = require("./config/database");
 const cloudinary = require("cloudinary");
 
 connectDB();

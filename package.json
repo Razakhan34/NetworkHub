@@ -5,9 +5,9 @@
     "node": "20.x"
   },
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "nodemon backend/api/index.js",
+    "start": "nodemon backend/index.js",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false && npm install --prefix frontend && npm run build --prefix frontend"
   },
   "author": "Mohammed Raza",
