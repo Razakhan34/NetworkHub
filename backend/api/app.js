@@ -3,12 +3,12 @@ const cookieParser = require("cookie-parser");
 const rateLimit = require("express-rate-limit");
 const path = require("path");
 const dotenv = require("dotenv");
-const userRouter = require("./routes/userRouter");
-const postRouter = require("./routes/postRouter");
-const messageRouter = require("./routes/messageRouter");
+const userRouter = require("../routes/userRouter");
+const postRouter = require("../routes/postRouter");
+const messageRouter = require("../routes/messageRouter");
 const cors = require("cors");
 
-const { app, server } = require("./utility/socket");
+const { app, server } = require("../utility/socket");
 
 app.use(cors());
 
